@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.telering.lightcircle"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:5:5-45:19
+12        android:allowBackup="true"
+12-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\Louis\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.LightCircle" >
+20-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:11:9-49
+21        <activity
+21-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.telering.lightcircle.navbar.InfosActivity"
+22-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:13:13-49
+23            android:exported="false" />
+23-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.telering.lightcircle.navbar.FlashCodeActivity"
+25-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:16:13-53
+26            android:exported="false" />
+26-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="com.telering.lightcircle.navbar.LightsActivity"
+28-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:19:13-50
+29            android:exported="false" />
+29-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.telering.lightcircle.navbar.VibratorActivity"
+31-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:22:13-52
+32            android:exported="false" />
+32-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="com.telering.lightcircle.NightModeActivity"
+34-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:25:13-46
+35            android:exported="false" />
+35-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="com.telering.lightcircle.group.EditGroupActivity"
+37-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:28:13-52
+38            android:exported="false" />
+38-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:30:9-32:40
+40            android:name="com.telering.lightcircle.group.GroupActivity"
+40-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:31:13-48
+41            android:exported="false" />
+41-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:32:13-37
+42        <activity
+42-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:33:9-35:40
+43            android:name="com.telering.lightcircle.group.NewGroupActivity"
+43-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:34:13-51
+44            android:exported="false" />
+44-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:35:13-37
+45        <activity
+45-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:36:9-44:20
+46            android:name="com.telering.lightcircle.group.MainActivity"
+46-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:37:13-47
+47            android:exported="true" >
+47-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:38:13-36
+48            <intent-filter>
+48-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:39:13-43:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:40:17-69
+49-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:40:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:42:17-77
+51-->C:\Users\Louis\Documents\Dev\Android\LightCircle\app\src\main\AndroidManifest.xml:42:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.telering.lightcircle.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Louis\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Louis\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Louis\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Louis\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

@@ -1,0 +1,23 @@
+com/telering/lightcircle/NightModeActivity.java
+ com.telering.lightcircle.NightModeActivity
+com/telering/lightcircle/navbar/LightsActivity.java
+ com.telering.lightcircle.navbar.LightsActivity
+com/telering/lightcircle/navbar/InfosActivity.java
+ com.telering.lightcircle.navbar.InfosActivity
+com/telering/lightcircle/group/EditGroupActivity.java
+ com.telering.lightcircle.group.EditGroupActivity
+com/telering/lightcircle/Utils.java
+ com.telering.lightcircle.Utils
+com/telering/lightcircle/group/MainActivity.java
+ com.telering.lightcircle.group.MainActivity
+ com.telering.lightcircle.group.MainActivity$1
+com/telering/lightcircle/BuildConfig.java
+ com.telering.lightcircle.BuildConfig
+com/telering/lightcircle/navbar/FlashCodeActivity.java
+ com.telering.lightcircle.navbar.FlashCodeActivity
+com/telering/lightcircle/group/GroupActivity.java
+ com.telering.lightcircle.group.GroupActivity
+com/telering/lightcircle/navbar/VibratorActivity.java
+ com.telering.lightcircle.navbar.VibratorActivity
+com/telering/lightcircle/group/NewGroupActivity.java
+ com.telering.lightcircle.group.NewGroupActivity

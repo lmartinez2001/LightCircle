@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_vibrator.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_vibrator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_group.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_group.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_new_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_night_mode.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_night_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lights.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_lights.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_group_icon.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\drawable\\add_group_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_group.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_edit_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_infos.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_infos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_flash_code.xml.flat",
+        "source": "C:\\Users\\Louis\\Documents\\Dev\\Android\\LightCircle\\app\\src\\main\\res\\layout\\activity_flash_code.xml"
+    }
+]
