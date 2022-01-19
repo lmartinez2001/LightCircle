@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navbar_vibrator"
+        android:title="Vibrator"
+        android:icon="@drawable/ic_vibration"/>
+
+    <item
+        android:id="@+id/navbar_lights"
+        android:title="Lights"
+        android:icon="@drawable/ic_highlight"/>
+
+    <item
+        android:id="@+id/navbar_flash_code"
+        android:title="Flash Code"
+        android:icon="@drawable/ic_qr_code_scanner"/>
+
+    <item
+        android:id="@+id/navbar_infos"
+        android:title="Infos"
+        android:icon="@drawable/ic_info"/>
+
+</menu>
