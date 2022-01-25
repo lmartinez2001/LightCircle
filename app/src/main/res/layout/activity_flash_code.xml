@@ -8,11 +8,27 @@
 
 
     <TextView
+        android:id="@+id/flash_code_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QRCode"
         android:textSize="50dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/flash_code_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoFocusButtonColor="@color/white"
+        app:flashButtonColor="@color/white"
+        app:frameCornersRadius="30dp"
+        app:frameSize="0.8"
+        app:frameThickness="2dp"
+        app:maskColor="#77000000"
+        android:layout_below="@+id/flash_code_title"/>
+
 
     <Button
         android:id="@+id/cancel_button"

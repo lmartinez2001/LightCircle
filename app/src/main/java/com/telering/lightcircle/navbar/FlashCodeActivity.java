@@ -8,15 +8,24 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import com.budiyev.android.codescanner.CodeScanner;
+import com.budiyev.android.codescanner.CodeScannerView;
+import com.budiyev.android.codescanner.DecodeCallback;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.zxing.Result;
 import com.telering.lightcircle.R;
 import com.telering.lightcircle.group.MainActivity;
 
 public class FlashCodeActivity extends AppCompatActivity {
 
     private Button cancelButton;
+    private CodeScannerView scannerView;
+
+
+    private CodeScanner mCodeScanner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +35,29 @@ public class FlashCodeActivity extends AppCompatActivity {
 
         // ************************ Gestion des elements **********************************
         cancelButton = findViewById(R.id.cancel_button);
+
+        // Code récupéré du github du créateur de l'API
+        // https://github.com/yuriy-budiyev/code-scanner
+        scannerView = findViewById(R.id.flash_code_scanner);
+
+        mCodeScanner = new CodeScanner(this, scannerView);
+        mCodeScanner.setDecodeCallback(new DecodeCallback() {
+            @Override
+            public void onDecoded(@NonNull Result result) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(FlashCodeActivity.this, result.getText(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+            }
+        });
+        scannerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mCodeScanner.startPreview();
+            }
+        });
 
         // Click sur le bouton Retour
         cancelButton.setOnClickListener(new View.OnClickListener() {
@@ -73,5 +105,22 @@ public class FlashCodeActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mCodeScanner.startPreview();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mCodeScanner.releaseResources();
+    }
+
+    // TODO gestion de la connexion entre le téléphone, le bracelet et le serveur de la soirée
+    private void initConnections() {
+
     }
 }
