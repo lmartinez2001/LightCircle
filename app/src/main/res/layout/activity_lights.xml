@@ -4,14 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".navbar.LightsActivity">
+    tools:context=".navbar.LightsActivity" >
 
     <TextView
+        android:id="@+id/lights_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lumières"
+        android:text="Light"
         android:textSize="50dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/lights_button"
+        android:src="@drawable/ic_light"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="fitCenter"
+        android:background="?android:selectableItemBackground"
+        app:tint="@color/material_on_surface_disabled"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lights_title"
+        android:layout_marginTop="20dp"/>
+
+
+    <com.madrapps.pikolo.HSLColorPicker
+        android:id="@+id/lights_colorpicker"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lights_button"
+        android:layout_marginTop="30dp"/>
 
     <Button
         android:id="@+id/cancel_button"
@@ -32,7 +54,6 @@
         app:itemBackground="@color/design_default_color_primary_dark"
         app:itemTextColor="@drawable/selector"
         app:itemIconTint="@drawable/selector"
-        app:menu="@menu/bottom_navbar"
-        />
+        app:menu="@menu/bottom_navbar" />
 
 </RelativeLayout>

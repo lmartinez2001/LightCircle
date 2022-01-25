@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         // ************************ Gestion de la barre de navigation ***********************************
         BottomNavigationView bottomNavBar = findViewById(R.id.bottom_navigation);
 
-
+        bottomNavBar.setSelectedItemId(R.id.navbar_default);
 
         // Navigation
         bottomNavBar.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {

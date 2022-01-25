@@ -21,4 +21,11 @@
         android:title="Infos"
         android:icon="@drawable/ic_info"/>
 
+    <!-- Item invisible sélectionné par défaut quand aucun des menus de la barre n'est sélectionné -->
+
+    <item
+        android:id="@+id/navbar_default"
+        android:title="default"
+        android:visible="false"/>
+
 </menu>
